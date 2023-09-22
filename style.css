@@ -14,6 +14,10 @@
 body {
   font-family: "Open Sans", sans-serif;
   height: 100vh;
+  background-image: url(images/Wave.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 h1 {
@@ -36,6 +40,7 @@ main {
 .container {
   max-width: 626px;
   margin: 0rem auto;
+  padding: 0 10px;
 }
 
 .img-world {
@@ -91,7 +96,7 @@ footer nav {
 }
 
 hr {
-  width: 391px;
+  max-width: 391px;
   height: 1px;
   border: 1px solid var(--gray);
   margin: 0 auto;
@@ -111,11 +116,4 @@ footer ul li a {
   font-size: 15px;
   font-weight: 700;
   line-height: 22.152px;
-}
-
-body {
-  background-image: url(images/Wave.svg);
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
